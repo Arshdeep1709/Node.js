@@ -1,0 +1,30 @@
+So, before starting node project we will firstly install the package.json file 
+to do so run the command npm init
+and it will ask you some questions and then it will install the package
+Before installing any project in node js it is necessary to use npm install (keyword)
+There are two classes in which our packages are downloades "dependencies" and "devdependencies"
+to save a package in dependencies we will write npm install name_of_package and run the command
+to save a package in devdependencies we will write npm install --save-dev name_of_package and run the command
+
+
+After all the installation we will start our project
+
+
+1) Let's see what is import and export in node js:
+=> first of all we will create two files index.js and index2.js now, what if we want to use index2 in index lets see...
+This is also known as common js modules
+
+2) Now we will see how to use node js modules
+(https://nodejs.org/dist/latest-v19.x/docs/api/)
+
+3) What is Common JS modules and what are ECMA JS modules ??
+=> As we have already seen what are common js modules now we will see ECMA JS modules
+ we can't use mjs extension to save a file bcs it becomes an ecmascript after uing mjs extension
+ and if we are saving a file with mjs extension we can't use require
+
+ ECMA Script = import
+ CJM = require
+
+ 4) Now we will build a server:
+ To create a server  firstly we will import http module then, we will define a port and save it in const
+ then we will create a server using http.createserver method in than we will define a function with two parameteres request and response after that we well make server listen on the port for that server.listen in that we will define a function and in function there will be a parameter called error if there is something wrong we will throw the error else successfull !
